@@ -6,7 +6,6 @@ from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_community.tools import WikipediaQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper
 from langchain_community.tools import YouTubeSearchTool
-from qdrantsearchnews import QdrantSearchNewsTool
 from googlesearchtool import GoogleSearchTool
 from langchain_openai import ChatOpenAI
 
